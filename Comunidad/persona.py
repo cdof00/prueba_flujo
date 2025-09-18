@@ -20,11 +20,9 @@ class Persona:
        return(self.__nombre)
    #pruebas
    #merge auto prueba
-
-
-
    #segunda prueba de merge
-   #asdfasfasfasdfadf
+   #asdfasfasfasdfadf}}
+
 
    def calcular_anio_nacimiento(self, ya_cumplio_anios):
        anio_actual = datetime.datetime.now().year

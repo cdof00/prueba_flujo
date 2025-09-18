@@ -38,4 +38,4 @@ jobs:
         with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             source-branch: develop
-            target-branch: ${{ github.ref_name }}
+            target-branch: ${{ github.head_ref }}

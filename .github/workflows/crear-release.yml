@@ -20,11 +20,11 @@ jobs:
         pip install -r requirements.txt
     - name: Correr pruebas
       id: correr-pruebas
-      run: python -m unittest -v tests/test_recetario.py
+      run: python -m unittest -v tests/test_persona.py
     - name: Cálculo de cubrimiento
       id: cubrimiento
       run: |
-          coverage run -m unittest tests/test_recetario.py
+          coverage run -m unittest tests/test_persona.py
           coverage report -m
   crear_release:
     name: CrearRelease

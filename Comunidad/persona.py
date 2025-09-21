@@ -20,6 +20,9 @@ class Persona:
        return(self.__nombre)
    #pruebas
    #merge auto prueba
+
+
+
    #segunda prueba de merge
    #asdfasfasfasdfadf}}
 

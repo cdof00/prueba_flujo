@@ -2,7 +2,7 @@ name: crear-release
 on:
   push:
     branches:
-      - develop
+      - 'devel**'
 jobs:
   job1:
     name: Pruebas

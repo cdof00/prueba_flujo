@@ -29,7 +29,7 @@ jobs:
   automerge:
     name: Automerge
     needs: job1
-    if: ${{ contains(github.event.head_commit.message, '(Verde)') }}
+    if: ${{ contains(github.event.head_commit.message, 'merge') }}
     runs-on: ubuntu-latest
     steps:
       - id: automerge
